@@ -1,11 +1,11 @@
 <script lang="ts">
-import { createWallet, KinClient, KinTest, Wallet } from '@kin-sdk/client'
+	import KinIntegration from "./components/Kin-integration.svelte";
 	export let name: string;
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<KinIntegration></KinIntegration>
 </main>
 
 <style>
