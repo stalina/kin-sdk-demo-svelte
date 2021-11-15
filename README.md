@@ -1,4 +1,4 @@
-# kin-sdk-demo-vue
+# kin-sdk-demo-svelte
 
 Demo of using the [kin-sdk](https://github.com/kin-sdk/kin-sdk) in a Svelte app.
 
